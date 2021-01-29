@@ -1,0 +1,24 @@
+body {background-color: black;
+color: red;
+font-size: 28px;
+user-select: none;
+}
+hi {font-size: 18px;
+font-family: serif(red);
+font-weight: bold;
+}
+a {
+   border-style: solid;
+   border-width: 3px;
+   border-color:black;
+  color: white;
+  margin: 0 auto;
+  padding: 1px 1px;
+  text-decoration: none;
+  text-transform: uppercase; 
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid red;
+}
