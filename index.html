@@ -1,0 +1,51 @@
+<html>
+<head>
+   <title>ESCAPE CO</title>
+   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="stylesheet" href="the login.css">
+</head>
+<body>
+<script language = "JavaScript">
+function validate() {
+var username1 = document.getElementById("username1").value;
+var password = document.getElementById("password").value;
+var usercodes = document.getElementById("username1").value = "codes";
+var usercodes2 = document.getElementById("username1").value = "zero";
+loggedin=false;
+
+if (username1 == usercodes && password == "zzz3.88p") {
+loggedin=true;
+window.location="codes&&keys.html"
+}
+   
+if (username1 == usercodes2 && password == "0000pasword") {
+loggedin=true;
+window.location=".html"
+}
+
+/* this is the template
+        VVVVV
+if (username1 ==  && password == "") {
+loggedin=true;
+window.location=".html"
+}*/
+
+if (loggedin==false) {
+window.location="error.html";
+}
+
+
+} 
+</script>
+<p><k>THE ESCAPE COMPANY</k></p>
+<label for="username1">Username:</label><select name="username1" id="username1">
+  <option value="codes">codes/keys</option>
+  <option value="zero">0000</option>
+</select>
+
+<p>Password:<input
+id="password" type="password"/></p>
+ <a value="Login" onclick="validate();">
+<hi>LET ME IN</hi></a>
+</body>
+</html>

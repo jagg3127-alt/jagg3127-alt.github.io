@@ -1,0 +1,40 @@
+body {background-color: black;
+color: red;
+font-size: 28px;
+user-select: none;
+}
+k {font-size: 55px;}
+hi {font-size: 25px;
+font-family: serif(red);
+font-weight: bold;
+}
+a {
+   border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  background-color: black;
+  box-shadow: 0 5px 0 gray;
+  color: white;
+  padding: 1px 1.5px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer	; 
+}
+
+a:hover {
+  background-color: #b300b3;
+  box-shadow: 0 5px 0 #800080;
+  border-color: #ffe6ff;
+  
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+select {
+font-size: 28px;
+  width: 18%;
+}
